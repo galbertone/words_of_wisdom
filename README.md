@@ -1,11 +1,12 @@
 # words_of_wisdom
-A list of wisdoms for unix fortune gathered from [the fuckinghomepage](https://fuckinghomepage.com/).
+A list of wisdoms for unix [fortune](https://github.com/shlomif/fortune-mod) gathered from [the fuckinghomepage](https://fuckinghomepage.com/).
 
 
 # Install
 - Install package fortune-mod
-- Clone file
-- Run strfile words_of_wisdom to enable random access of the quotes and create a .dat file.
-- Move words_of wisdom and words_of_wisdom.dat files into the /usr/share/fortune/ directory
+- ```git Clone https://github.com/galbertone/words_of_wisdom.git```
+- cd into the folder
+- Run ```strfile words_of_wisdom```  to enable random access of the quotes and create a .dat file.
+- Move ```words_of wisdom```  and ``` words_of_wisdom.dat```  files into the /usr/share/fortune/ directory
 # Usage
-- Fortune words_of_wisdom
+- ```fortune words_of_wisdom``` 
